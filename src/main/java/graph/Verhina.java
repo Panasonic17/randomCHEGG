@@ -8,8 +8,8 @@ import java.util.List;
  */
 public class Verhina {
     String action;
-    public ArrayList<Verhina> branches;
-    List<String> next;
+    public ArrayList<Verhina> branches=new ArrayList<>();
+    List<String> next=new ArrayList<>();
 
     public Verhina(String action) {
         this.action = action;
